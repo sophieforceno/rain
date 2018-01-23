@@ -13,7 +13,7 @@ Rain has several components: the Rain python module that can be run from the com
   
       -d [{0,1,2,3,4} [{0,1,2,3,4} ...]], --day [{0,1,2,3,4} [{0,1,2,3,4} ...]]
                         Display weather forecast for one or more days (0-4).
-                        Days are space-delimited (e.g. rain -d 0 1 2 (forecast for next 3 days)
+                        Days are space-delimited (e.g. rain -d 0 1 2 gives the forecast for next 3 days)
                         
       -o, --hourly          Display hour-by-hour weather conditions
   
