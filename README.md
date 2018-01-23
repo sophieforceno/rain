@@ -3,23 +3,24 @@ Rain: A self-hosted weather forecast app written in Python
 
 Rain has several components: the Rain python module that can be run from the command-line. Provides current conditions and daily forecast for the next 5 days. 
 
-usage: rain [-h] [-c] [-d [{0,1,2,3,4} [{0,1,2,3,4} ...]]] [-o] [-m] [-w]
 
-optional arguments:
-  -h, --help            show this help message and exit
+    usage: rain [-h] [-c] [-d [{0,1,2,3,4} [{0,1,2,3,4} ...]]] [-o] [-m] [-w]
+
+    optional arguments:
+      -h, --help            show this help message and exit
   
-  -c, --currently       Display currrent weather conditions
+      -c, --currently       Display currrent weather conditions
   
-  -d [{0,1,2,3,4} [{0,1,2,3,4} ...]], --day [{0,1,2,3,4} [{0,1,2,3,4} ...]]
+      -d [{0,1,2,3,4} [{0,1,2,3,4} ...]], --day [{0,1,2,3,4} [{0,1,2,3,4} ...]]
                         Display weather forecast for one or more days (0-4).
                         Days are space-delimited (e.g. rain -d 0 1 2 (forecast for next 3 days)
                         
-  -o, --hourly          Display hour-by-hour weather conditions
+      -o, --hourly          Display hour-by-hour weather conditions
   
-  -m, --minutely        Display minute-by-minute forecast for the next hour
+      -m, --minutely        Display minute-by-minute forecast for the next hour
   
-  -w, --weekly          Display 5-day weather forecast (same as 'rain -d 0 1 2
-                        3 4')
+      -w, --weekly          Display 5-day weather forecast (same as 'rain -d 0 1 2
+                            3 4')
                         
 The second component is the rainserver component which depends on flask, flask-cache. flask-compress, and Cherrypy. This allows you to host your own weather forecast app on the web! The server component calls the rain module when needed to update the current conditions and forecast on the web app/server.
 
