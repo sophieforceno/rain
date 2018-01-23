@@ -16,7 +16,7 @@ optional arguments:
   -w, --weekly          Display 5-day weather forecast (same as 'rain -d 0 1 2
                         3 4')
                         
-The second component is the rainserver component which depends on flask, flask-cache. flask-compress, and Cherrypy. This allows you to host your own weather forecast app on the web!
+The second component is the rainserver component which depends on flask, flask-cache. flask-compress, and Cherrypy. This allows you to host your own weather forecast app on the web! The server component calls the rain module when needed to update the current conditions and forecast on the web app/server.
 
 Still working out some bugs, but the first component will be made public fairly soon. The server componenent is very much still work in progress.
 
