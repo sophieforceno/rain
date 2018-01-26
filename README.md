@@ -24,10 +24,10 @@ Rain has several components: the Rain python module that can be run from the com
                         
 The second component is the rainserver component which depends on flask, flask-cache. flask-compress, and Cherrypy. This allows you to host your own weather forecast app on the web! The server component calls the rain module when needed to update the current conditions and forecast on the web app/server.
 
-Still working out some bugs, but the first component will be made public fairly soon. The server componenent is very much still work in progress.
+Still working out some bugs, but the first component will be made public fairly soon. The server componenent is very much still work in progress (it works, but let's just say... I'm not normally a web developer).
 
 Goals for this project:
-- To provide a self-hosted weather forecast app that can run on myriad hardware from desktop PCs and servers to single-board computers (rain is being partly developed on a 500Mhz Onion Omega2 SBC).
+- To provide a self-hosted weather forecast app that can run on myriad hardware from desktop PCs and servers to single-board computers (rain is being partly developed on a 580Mhz Onion Omega2 SBC).
 - To provide a self-hosted web app that is  easy to setup, configure, and use
 - To provide a self-hosted web app that is stable and provides accurate forecasts always
 - And more! 
