@@ -1,7 +1,7 @@
 # rain
 Rain: A self-hosted weather forecast app written in Python
 
-Rain has several components: the Rain python module that can be run from the command-line. Provides current conditions and daily forecast for the next 5 days. Rain requires Python and the standard library only. Created with Python 3.4, but it also works with 2.7.6.
+Rain has several components: the Rain python module that can be run from the command-line. Provides current conditions and daily forecast for the next 5 days. Rain requires Python and the standard library only. Works with Python 3.
 
     usage: rain [-h] [-c] [-d [{0,1,2,3,4} [{0,1,2,3,4} ...]]] [-o] [-m] [-w]
 
