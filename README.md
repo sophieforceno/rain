@@ -39,4 +39,4 @@ Goals for this project:
   Note: Enable the Google Maps Geolocation API and Google Maps Geocoding API
 - Insert your API keys in rain.conf, along with your residental address, save the file
 - Execute `python3 rain.py -c` to see the magic happen (and see current weather conditions)
-= `rain.py -h` will display help
+- `rain.py -h` will display help
