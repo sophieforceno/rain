@@ -29,4 +29,4 @@ Goals for this project:
 - To provide a self-hosted weather forecast app that can run on myriad hardware from desktop PCs and servers to single-board computers (rain is being partly developed on a 580Mhz Onion Omega2 SBC).
 - To provide a self-hosted web app that is  easy to setup, configure, and use
 - To provide a self-hosted web app that is stable and provides accurate forecasts always
-- And more! 
+- And more!
