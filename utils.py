@@ -5,10 +5,8 @@ from time import ctime
 
 def convert_unixtime(unixtime):
     """Convert Unixtime to local 12-hour datetime"""
-    # First, convert Unixtime to 24-hour time """
-    twenty_four = ctime(int(unixtime)).split()[3].rpartition(':')[0]
-    # Then, convert 24-hour time to 12-hour time and return it """
-    return datetime.strptime(twenty_four, '%H:%M').strftime("%I:%M %p").lstrip("0")
+    twenty_four = datetime.fromtimestamp(int(unixtime)).strftime('%A %B %d')
+    return twenty_four
 
 def convert_dayofweek(unixtime):
     """
