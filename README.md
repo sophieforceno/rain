@@ -10,7 +10,7 @@ The commandline component, rain.py, is now available! The server componenent is 
 UPDATE: Not that anyone is using this other than me, but since Dark Sky has been sold to Apple, the API will no longer be available as of 2021. Get it while you can, I suppose. Given that, whatever you read above about me releasing a web-based weather app, it ain't happening :-(
 
 ### Installation
-- `git clone https://github.com/SyntrophicConsortium/rain.git`
+- `git clone https://github.com/andyforceno/rain.git`
 - You must obtain API keys for the Dark Sky API and Google Maps API. 
   To register for Dark Sky: https://darksky.net/dev/register
   To register for Google Maps API: https://developers.google.com/maps/documentation/geolocation/get-api-key
