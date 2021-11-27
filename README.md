@@ -12,7 +12,7 @@ UPDATE: Not that anyone is using this other than me, but since Dark Sky has been
 UPDATE 2 (09-17-20): At some point before the close of 2020 I intend to move Rain over to the Windy.com API, in case anyone's interested (probably not).
 
 ### Installation
-- `git clone https://github.com/andyforceno/rain.git`
+- `git clone https://github.com/sophieforceno/rain.git`
 - You must obtain API keys for the Dark Sky API and Google Maps API. 
   To register for Dark Sky: https://darksky.net/dev/register
   To register for Google Maps API: https://developers.google.com/maps/documentation/geolocation/get-api-key
