@@ -9,13 +9,13 @@ from shlex import split
 
 """
 Rain - A weather application for the CLI, written in Python
-    by Andy Forceno
+    by Sophie Forceno
 
 Distributed under an MIT license. See license.md for more info.
 
 Dark Sky API Documentation: https://darksky.net/dev/docs
 
-TODO:
+TODO: [ None of this will ever happen, API is closed in 2022 :-( ] 
 - Hourly & minutely output
 - Better error handling
 - Handle 400 errs from Darksky:
